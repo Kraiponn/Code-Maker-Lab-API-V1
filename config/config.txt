@@ -1,0 +1,17 @@
+NODE_ENV=development
+PORT=5000
+
+MONGO_URI_DEV=mongodb://localhost:27017/codemaker
+MONGO_URI_PROD=
+
+JWT_SECRET=
+JWT_EXPIRE=1h
+
+LIMIT_FILE_SIZE=1500000
+UPLOAD_PATH=./public/uploads
+
+PUBLISHER_USER=publisher
+ADMIN_USER=admin
+
+FOOD_MODEL_NO=1
+BOOK_MODEL_NO=2
